@@ -1,0 +1,42 @@
+The web is a network of coputers and servers
+from a local level, like your hometown, all the
+way up to the entire world all comunicating to
+each other. 
+
+When someone goes into their browser and looks
+up "Google", for example, that sends a request 
+to the server that hosts the site. In order to 
+actually have the request sent to the server,
+it first has to serch your local device, ie. 
+your phone, laptop, desktop, etc for the IP
+address.
+
+If the Ip address is not found on your local
+device, the request is then sent to your home 
+router to see if any other device that is 
+connected to the router has been to that IP.
+
+If the IP is not found in the router, then the 
+request gets pushed to your internet service 
+provider.
+
+If for whatever reason the IP is not found with 
+your internet server provider, it then goes to 
+the root server. This almost never happens 
+anymore since, for the most part your ISP will 
+have the IP.
+
+Once the IP address is found either one of 
+these sources, you local device(browser) then 
+sends the request to the host server of the IP.
+
+The host server then begins to send out the 
+data of said site in what is known as packets.
+
+Packets are chunks of data and information to 
+be dowloaded for the site to appear in the 
+browser. The packets are sent through various 
+different routes. If for whatever reason a 
+piece of information is not sent and the user 
+refreshes the site, the host server then has to 
+send all the packages again from scratch.
